@@ -18,7 +18,7 @@ def get_all_distributions(buckets, n):
         for x in get_all_distributions(buckets - 1, n - i):
             res.append([i] + x)
     return res
-ingreds = [Ingredient(args, name) for args, name in zip([[int(y.split(' ')[-1]) for y in x[:-1].split(',')] for x in open("Data/day15.txt",'r').readlines()],[x.split(':')[0] for x in open("Data/day15.txt",'r').readlines()])]
+ingreds = [Ingredient(args, name) for args, name in zip([[int(y.split(' ')[-1]) for y in x[:-1].split(',')] for x in open("data/day15.txt",'r').readlines()],[x.split(':')[0] for x in open("data/day15.txt",'r').readlines()])]
 tsps = 100
 prods = []
 for recipe in get_all_distributions(len(ingreds),tsps):
@@ -45,7 +45,7 @@ def get_all_distributions(buckets, n):
         for x in get_all_distributions(buckets - 1, n - i):
             res.append([i] + x)
     return res
-ingreds = [Ingredient(args, name) for args, name in zip([[int(y.split(' ')[-1]) for y in x[:-1].split(',')] for x in open("Data/day15.txt",'r').readlines()],[x.split(':')[0] for x in open("Data/day15.txt",'r').readlines()])]
+ingreds = [Ingredient(args, name) for args, name in zip([[int(y.split(' ')[-1]) for y in x[:-1].split(',')] for x in open("data/day15.txt",'r').readlines()],[x.split(':')[0] for x in open("data/day15.txt",'r').readlines()])]
 tsps = 100
 prods = []
 for recipe in get_all_distributions(len(ingreds),tsps):

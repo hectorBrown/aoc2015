@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec  4 13:52:57 2020
@@ -22,7 +23,7 @@ class RD:
         else:
             self.counter = (self.counter + 1) if self.counter != self.r_t - 1 else 0
             self.resting = bool(self.counter)
-dat = [x.split(' ') for x in open("Data\day14.txt").readlines()]
+dat = [x.split(' ') for x in open("data/day14.txt").readlines()]
 T = int(dat[-1][0])
 reindeers = {}
 for line in dat[:-1]:
@@ -51,7 +52,7 @@ class RD:
         else:
             self.counter = (self.counter + 1) if self.counter != self.r_t - 1 else 0
             self.resting = bool(self.counter)
-dat = [x.split(' ') for x in open("Data\day14.txt").readlines()]
+dat = [x.split(' ') for x in open("data/day14.txt").readlines()]
 T = int(dat[-1][0])
 reindeers = {}
 for line in dat[:-1]:

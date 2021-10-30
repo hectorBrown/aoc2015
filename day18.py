@@ -14,7 +14,7 @@ def count_neighbours(mat, i, j):
     return count
 
 steps = 100
-dat = [[c for c in x[:-1]] for x in open("Data/day18.txt",'r').readlines()]
+dat = [[c for c in x[:-1]] for x in open("data/day18.txt",'r').readlines()]
 for a in range(steps):
     new = [line.copy() for line in dat]
     for i,line in enumerate(dat):
@@ -37,7 +37,7 @@ def count_neighbours(mat, i, j):
     return count
 
 steps = 100
-dat = [[c for c in x[:-1]] for x in open("Data/day18.txt",'r').readlines()]
+dat = [[c for c in x[:-1]] for x in open("data/day18.txt",'r').readlines()]
 for a in range(steps):
     new = [line.copy() for line in dat]
     for i,line in enumerate(dat):

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 14:35:01 2020
@@ -7,7 +8,7 @@ Created on Thu Dec  3 14:35:01 2020
 import hashlib
 def valid(s):
     return s[:5] == ''.join(['0'] * 5)
-key = open("Data\day4.txt").readline()
+key = open("data/day4.txt").readline()
 num = 1
 while True:
     if valid(hashlib.md5((key + str(num)).encode()).hexdigest()):
@@ -18,7 +19,7 @@ print(num)
 import hashlib
 def valid(s):
     return s[:6] == ''.join(['0'] * 6)
-key = open("Data\day4.txt").readline()
+key = open("data/day4.txt").readline()
 num = 1
 while True:
     if valid(hashlib.md5((key + str(num)).encode()).hexdigest()):

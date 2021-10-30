@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 23:29:11 2020
@@ -27,7 +28,7 @@ def valid(pswd):
     rule3 = len(paired) >= 2
     return rule1 and rule2 and rule3
     
-dat = open("Data\day11.txt",'r').readline()
+dat = open("data/day11.txt",'r').readline()
 curr = dat
 while not valid(curr):
     curr = incr(curr)
@@ -56,7 +57,7 @@ def valid(pswd):
     rule3 = len(paired) >= 2
     return rule1 and rule2 and rule3
     
-dat = open("Data\day11.txt",'r').readline()
+dat = open("data/day11.txt",'r').readline()
 curr = dat
 while not valid(curr):
     curr = incr(curr)

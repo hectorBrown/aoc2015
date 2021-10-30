@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 14:50:03 2020
@@ -20,7 +21,7 @@ def nice(s):
     if any([b in s for b in banned]):
         return False
     return True
-data = [x[:-1] for x in open("Data\day5.txt", 'r').readlines()]
+data = [x[:-1] for x in open("data/day5.txt", 'r').readlines()]
 print(sum([int(nice(x)) for x in data]))
 #%%
 def nice(s):
@@ -35,5 +36,5 @@ def nice(s):
         if triple[0] == triple[-1:]:
             rule2 = True
     return rule2 and rule1
-data = [x[:-1] for x in open("Data\day5.txt", 'r').readlines()]
+data = [x[:-1] for x in open("data/day5.txt", 'r').readlines()]
 print(sum([int(nice(x)) for x in data]))

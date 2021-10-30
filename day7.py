@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 18:45:41 2020
@@ -5,7 +6,7 @@ Created on Thu Dec  3 18:45:41 2020
 @author: Hector
 """
 import numpy as np
-dat = [x[:-1].split(' ') for x in open("Data\day7.txt",'r').readlines()]
+dat = [x[:-1].split(' ') for x in open("data/day7.txt",'r').readlines()]
 wires = {}
 while len(dat) > 0:
     topop = []
@@ -58,7 +59,7 @@ while len(dat) > 0:
 print(wires["a"])
 #%%
 import numpy as np
-dat = [x[:-1].split(' ') for x in open("Data\day7.txt",'r').readlines()]
+dat = [x[:-1].split(' ') for x in open("data/day7.txt",'r').readlines()]
 wires = {"b": np.uint16(16076)}
 while len(dat) > 0:
     topop = []

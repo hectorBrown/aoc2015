@@ -22,8 +22,8 @@ def uniqueify(li):
         if not i in res:
             res.append(i)
     return res
-transforms = [x[:-1].split(" => ") for x in open("Data/day19.txt",'r').readlines()[:-2]]
-molecule = open("Data/day19.txt",'r').readlines()[-1][:-1]
+transforms = [x[:-1].split(" => ") for x in open("data/day19.txt",'r').readlines()[:-2]]
+molecule = open("data/day19.txt",'r').readlines()[-1][:-1]
 transformed = []
 for transform in transforms:
     transformed.extend(transform_all(transform, molecule))
@@ -35,9 +35,9 @@ def get_inds_of(target, s):
         if s[i:i + len(target)] == target:
             res.append(i)
     return res
-transforms = [x[:-1].split(" => ") for x in open("Data/day19.txt",'r').readlines()[:-2]]
+transforms = [x[:-1].split(" => ") for x in open("data/day19.txt",'r').readlines()[:-2]]
 transforms = [[x,y] for y,x in transforms]
-molecule = open("Data/day19.txt",'r').readlines()[-1][:-1]
+molecule = open("data/day19.txt",'r').readlines()[-1][:-1]
 count = 0
 while molecule != "e":
     for transform in transforms:

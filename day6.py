@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 15:20:31 2020
@@ -6,7 +7,7 @@ Created on Thu Dec  3 15:20:31 2020
 """
 # from PIL import Image
 
-data = [x[:-1].split(' ') for x in open("Data\day6.txt",'r').readlines()]
+data = [x[:-1].split(' ') for x in open("data/day6.txt",'r').readlines()]
 mat = []
 for i in range(1000):
     mat.append([-1] * 1000)
@@ -34,7 +35,7 @@ for command in data:
 print(sum([sum([(x + abs(x))/2 for x in row]) for row in mat]))
 # img.show()
 #%%
-data = [x[:-1].split(' ') for x in open("Data\day6.txt",'r').readlines()]
+data = [x[:-1].split(' ') for x in open("data/day6.txt",'r').readlines()]
 mat = []
 for i in range(1000):
     mat.append([0] * 1000)

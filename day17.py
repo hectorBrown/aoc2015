@@ -38,7 +38,7 @@ def uniqueify(li):
     return res
 
 lit = 150
-dat = [Cont(i, int(x[:-1])) for i,x in enumerate(open("Data/day17.txt",'r').readlines())]
+dat = [Cont(i, int(x[:-1])) for i,x in enumerate(open("data/day17.txt",'r').readlines())]
 print(len(get_all_combos(lit,dat)))
 #%%
 class Cont:
@@ -72,6 +72,6 @@ def uniqueify(li):
     return res
 
 lit = 150
-dat = [Cont(i, int(x[:-1])) for i,x in enumerate(open("Data/day17.txt",'r').readlines())]
+dat = [Cont(i, int(x[:-1])) for i,x in enumerate(open("data/day17.txt",'r').readlines())]
 combos = get_all_combos(lit, dat)
 print(len([x for x in combos if len(x) == min([len(y) for y in combos])]))

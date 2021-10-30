@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec  4 00:18:13 2020
@@ -18,7 +19,7 @@ def combo(li, fixed=[]):
         else:
             res.extend(combo([elem for a, elem in enumerate(li) if a != i], temp))
     return res
-dat = [x[:-2].split(' ') for x in open("Data\day13.txt",'r').readlines()]
+dat = [x[:-2].split(' ') for x in open("data/day13.txt",'r').readlines()]
 pref = {}
 for line in dat:
     if not line[0] in pref:
@@ -49,7 +50,7 @@ def combo(li, fixed=[]):
         else:
             res.extend(combo([elem for a, elem in enumerate(li) if a != i], temp))
     return res
-dat = [x[:-2].split(' ') for x in open("Data\day13.txt",'r').readlines()]
+dat = [x[:-2].split(' ') for x in open("data/day13.txt",'r').readlines()]
 pref = {"Me": {}}
 for line in dat:
     if not line[0] in pref:

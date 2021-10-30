@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 14:04:37 2020
@@ -5,7 +6,7 @@ Created on Thu Dec  3 14:04:37 2020
 @author: Hector
 """
 
-data = list(open("Data\day3.txt",'r').readline())
+data = list(open("data/day3.txt",'r').readline())
 pos = [0,0]
 visited = [[0,0]]
 counter = 1
@@ -23,7 +24,7 @@ for c in data:
         counter += 1
 print(counter)
 #%%
-data = list(open("Data\day3.txt",'r').readline())
+data = list(open("data/day3.txt",'r').readline())
 pos_s = [[0,0],[0,0]]
 visited = [[0,0]]
 counter = 1

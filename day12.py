@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Created on Thu Dec  3 23:54:04 2020
@@ -18,7 +19,7 @@ def flatten(li):
                 else:
                     res.append(li[elem])
     return res
-dat = open("Data\day12.txt",'r').readline()
+dat = open("data/day12.txt",'r').readline()
 dat = json.loads(dat)
 total = 0
 for value in flatten(dat):
@@ -43,7 +44,7 @@ def flatten(li):
                 else:
                     res.append(li[elem])
     return res
-dat = open("Data\day12.txt",'r').readline()
+dat = open("data/day12.txt",'r').readline()
 dat = json.loads(dat)
 total = 0
 for value in flatten(dat):
