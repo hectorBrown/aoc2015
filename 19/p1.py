@@ -1,4 +1,4 @@
-PATH = "day19/data.txt"
+PATH = "19/data.txt"
 def transform_all(transform, molecule):
     res = []
     for occurence in get_inds_of(transform[0], molecule):

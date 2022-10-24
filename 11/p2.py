@@ -1,4 +1,4 @@
-PATH = "day11/data.txt"
+PATH = "11/data.txt"
 banned = ['i','o','l']
 def incr(s):
     col = len(s) - 1

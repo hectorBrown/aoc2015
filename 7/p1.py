@@ -1,4 +1,4 @@
-PATH = "day7/data.txt"
+PATH = "7/data.txt"
 import numpy as np
 dat = [x[:-1].split(' ') for x in open(PATH).readlines()]
 wires = {}

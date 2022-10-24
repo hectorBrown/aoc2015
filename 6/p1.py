@@ -1,4 +1,4 @@
-PATH = "day6/data.txt"
+PATH = "6/data.txt"
 
 data = [x[:-1].split(' ') for x in open(PATH).readlines()]
 mat = []

@@ -1,4 +1,4 @@
-PATH = "day17/data.txt"
+PATH = "17/data.txt"
 class Cont:
     def __init__(self, _id, cap):
         self.id = _id; self.cap = cap

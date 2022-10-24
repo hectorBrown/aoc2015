@@ -1,4 +1,4 @@
-PATH = "day18/data.txt"
+PATH = "18/data.txt"
 def count_neighbours(mat, i, j):
     count = 0
     for i_s in range(-1, 2):

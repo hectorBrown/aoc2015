@@ -1,4 +1,4 @@
-PATH = "day12/data.txt"
+PATH = "12/data.txt"
 import json
 def flatten(li):
     res = []

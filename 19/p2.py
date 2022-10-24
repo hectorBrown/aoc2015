@@ -1,4 +1,4 @@
-PATH = "day19/data.txt"
+PATH = "19/data.txt"
 def get_inds_of(target, s):
     res = []
     for i in range(len(s) - len(target) + 1):

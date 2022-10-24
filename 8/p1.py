@@ -1,4 +1,4 @@
-PATH = "day8/data.txt"
+PATH = "8/data.txt"
 
 dat = [x[:-1] for x in open(PATH).readlines()]
 strings = []

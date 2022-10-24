@@ -1,4 +1,4 @@
-PATH = "day10/data.txt"
+PATH = "10/data.txt"
 
 def runlength(s):
     res = ""

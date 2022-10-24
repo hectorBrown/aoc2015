@@ -1,1 +1,1 @@
-PATH = "day12/data.txt"
+PATH = "12/data.txt"

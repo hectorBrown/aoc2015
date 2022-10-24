@@ -1,4 +1,4 @@
-PATH = "day14/data.txt"
+PATH = "14/data.txt"
 class RD:
     def __init__(self, speed, f_t, r_t):
         self.speed = speed

@@ -1,4 +1,4 @@
-PATH = "day2/data.txt"
+PATH = "2/data.txt"
 def RIB(l,w,h):
     return min([2 * x + 2 * i for x, i in [[l,w],[w,h],[h,l]]]) + l * w * h
 f = open(PATH)

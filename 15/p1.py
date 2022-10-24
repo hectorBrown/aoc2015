@@ -1,4 +1,4 @@
-PATH = "day15/data.txt"
+PATH = "15/data.txt"
 class Ingredient:
     def __init__(self, args, name):
         self.props = args; self.name = name

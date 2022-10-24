@@ -1,4 +1,4 @@
-PATH = "day5/data.txt"
+PATH = "5/data.txt"
 def nice(s):
     rule1 = False
     for i,c in enumerate(s[:-2]):

@@ -1,4 +1,4 @@
-PATH = "day13/data.txt"
+PATH = "13/data.txt"
 def combo(li, fixed=[]):
     res = []
     if len(li) == 1:

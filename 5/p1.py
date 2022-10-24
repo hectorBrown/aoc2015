@@ -1,4 +1,4 @@
-PATH = "day5/data.txt"
+PATH = "5/data.txt"
 vowels = ['a', 'e', 'i', 'o', 'u']
 banned = ["ab", "cd", "pq", "xy"]
 def nice(s):

@@ -1,4 +1,4 @@
-PATH = "day4/data.txt"
+PATH = "4/data.txt"
 import hashlib
 def valid(s):
     return s[:5] == ''.join(['0'] * 5)

@@ -1,4 +1,4 @@
-PATH = "day3/data.txt"
+PATH = "3/data.txt"
 
 data = list(open(PATH).readline())
 pos = [0,0]
